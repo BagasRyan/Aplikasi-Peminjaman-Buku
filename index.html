@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Peminjaman Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Peminjaman Buku</h1>
+        <form id="book-form">
+            <input type="text" id="title" placeholder="Judul Buku" required>
+            <input type="text" id="author" placeholder="Penulis Buku" required>
+            <input type="number" id="year" placeholder="Tahun Terbit" required>
+            <button type="submit">Tambah Buku</button>
+        </form>
+
+        <div class="bookshelf">
+            <h2>Belum Selesai Dibaca</h2>
+            <ul id="unread-books"></ul>
+        </div>
+
+        <div class="bookshelf">
+            <h2>Selesai Dibaca</h2>
+            <ul id="read-books"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 20%;
+}
+
+button {
+    padding: 10px;
+}
+
+.bookshelf {
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button.remove {
+    background: #e74c3c;
+}
+
+button.toggle {
+    background: #2ecc71;
+}
